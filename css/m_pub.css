@@ -1,0 +1,56 @@
+@charset "utf-8";
+html { width:100%;font-family:"微软雅黑",Helvetica, sans-serif;}
+body{ width:100%; overflow-x:hidden; font-size:10px;}
+body, html, p, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol, li, dl, dt, dd, form, a, fieldset, input, th, td {margin: 0; padding: 0; border: 0; outline: none;}
+*{ margin: 0; padding: 0;}
+ul, ol{list-style: none;}
+a{text-decoration:none;vertical-align:baseline;cursor:pointer;color:#000}
+a:hover{text-decoration:none;color:#000}
+input{ -webkit-appearance: none; outline: none; border: none;}
+img{ border-style:none;vertical-align:middle;}
+/************************************************ 头部 *******************************************/
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both}
+.half{width: 50%;}
+.center{text-align:center}
+.row{display: block;width: 100%;clear: both;overflow: hidden;}
+.row .col-sm-4{float: left;width: 32%;margin: 0.5rem 0.6666%;}
+.text-indent{text-indent: 2em;}
+.relative{position: relative;}
+.pub_title{font-size: 1rem; text-align: center;}
+/*公共的menu部分*/
+.top_nav{position: fixed;top: 0; display: flex;width: 100%; height: 3rem;z-index: 100;background: #355391;overflow: hidden;}
+.top_nav .son{width: 100%;line-height: 3rem;text-align: center;}
+.top_nav .son:nth-child(1){-webkit-flex:1;flex:1;}
+.top_nav .son:nth-child(2){-webkit-flex:1;flex:1;}
+.top_nav .son:nth-child(3){-webkit-flex:1;flex:1;}
+.top_nav .son img{height: 2.5rem;line-height: 3rem;cursor: pointer;}
+.top_nav .son:nth-child(1) img{float: left;margin-left: 5px}
+.top_nav .son:nth-child(2) img{vertical-align: middle;}
+.top_nav .son:nth-child(3) img{float: right;margin-right: 5px}
+#menu_left{background: #424242;}
+#menu_left h3{color: #e2de17; font-size: 1.2rem;}
+#menu_left ul {width: 100%; margin: 0.5rem;overflow: hidden;}
+#menu_left ul li{width:30%; float: left; margin: 0.2rem 0rem;font-size: 0.8rem; height: 1.2rem; line-height: 1.2rem; color: #fff;border-bottom: 1px solid #fff;}
+#menu_left ul li a{padding: inherit;line-height: 1rem;}
+#menu_left ul li a span{padding: 0 .2rem;}
+#menu_left .kcdh_bt{margin-top: .8rem;}
+.box,.container{display: block; width: 100%;}
+/*后边是footer部分*/
+.m_foot_box{display: block;width: 90%; margin: 1rem auto;}
+.m_foot_box .skill_group{display: block;width: 100%; margin: 0.7rem auto;}
+.m_foot_box .skill_group li{font-size: 0.9rem;border-top: 1px solid #ee5f53;padding: 0.3rem 0rem;height: 1.5rem;line-height: 1.5rem;}
+.m_foot_box .skill_group li span:nth-child(1){display:block; width: 45%;float: left;}
+.m_foot_box .skill_group li span:nth-child(2){display: block; width: 40%;float: left;}
+.m_foot_box .skill_group li a:nth-child(3){display: block; width: 15%;height: 1.3rem; background: #ee5f53;color: #FFFFFF;text-align: center;line-height: 1.3rem;border-radius: 15%; float: right;}
+.m_foot_box .form li{width:100%; font-size: 1.2rem; margin:0.4rem auto; line-height: 2rem; color:#ee5f53;}
+.m_foot_box .form li label{width: 20%;}
+.m_foot_box .form li input[type=text],.form li select{border:1px solid #ee5f53;width:80%; font-size: 1.2rem;}
+.m_foot_box .form li input[type=submit]{background:#ee5f53;color:#fff;width:100%;line-height:1.6rem; font-size: 1.2rem; height:1.6rem}
+.footer{display: table;width: 100%; background: #222123;color: #FFFFFF;font-size: 0.7rem;}
+.footer ul{display:table; padding: 1rem 1rem 3rem;}
+.footer li{display: inline-block;width: 100%;text-align: justify;line-height: 1.3rem; clear: both;}
+.footer li span:nth-child(1){display: block; width: 25%;text-align: justify; float: left;}
+.footer li span:nth-child(2){display: block; width: 75%;float: left;}
+.footer li span:nth-child(2) a{color: #FFFFFF;}
